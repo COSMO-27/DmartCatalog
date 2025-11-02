@@ -1,10 +1,13 @@
 body {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+    flex-direction: column;
+    justify-content: center; /* Tengah vertikal */
+    align-items: center;     /* Tengah horizontal */
+    min-height: 100vh;
     margin: 0;
-    font-family: 'montserrat';
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background: linear-gradient(to bottom, #f9d7d7, #e30b0b);
   }
   
   /* Background image di belakang */
@@ -99,19 +102,15 @@ body {
     -webkit-tap-highlight-color: transparent;
   }
   
-  html,
-  body {
-    display: grid;
-    height: 100%;
-    width: 100%;
-    font-family: "Poppins", sans-serif;
-    place-items: center;
-  }
   
   /* WRAPPER SOSMED */
   .wrapper {
-    display: inline-flex;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     list-style: none;
+    margin-top: 20px; /* Tambah jarak dari form */
+    padding: 0;
   }
   
   .wrapper .icon {
