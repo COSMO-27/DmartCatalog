@@ -313,6 +313,9 @@ body {
       border-radius: 6px;
     }
 
+    .brand{
+      padding-top: 10px;
+    }
     .buttonMbud{
       width: auto;
       height: auto;
